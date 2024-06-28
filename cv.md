@@ -7,6 +7,10 @@
 [![Discord Badge](https://img.shields.io/badge/-Discord-7289da?style=flat-square&logo=discord&logoColor=white&labelColor=7289da&link=https://discordapp.com/users/970657660292706365)](https://discordapp.com/users/970657660292706365)
 [![GitHub Badge](https://img.shields.io/badge/-GitHub-22272d?style=flat-square&logo=github&logoColor=white&labelColor=22272d&link=https://github.com/heligie)](https://github.com/heligie)
 
+## About
+
+Design and animation have been my passion since the days I started studying at the University and working with computers, but I found myself into web development since 2022. This field combines everything I like to do. I really enjoy creating designed, intuitive and functional websites and apps.
+
 ## Skills
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
