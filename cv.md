@@ -14,3 +14,40 @@
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
+## Code example
+
+```javascript
+const setLoadingButtonStatus = () => commentsLoadingButton.classList.toggle('hidden', visibleComments >= comments.length);
+```
+
+## Experience / Recent projects
+
++ [**cat-energy**](https://heligie.github.io/cat-energy/)
+    - **overview:** an online store website that can help you choose and order the right cat food system
+    - **stack:** html, scss, javascript, gulp, bem-methodology
+    - [**github repo**](https://github.com/heligie/cat-energy)
++ [**big-trip**](https://big-trip-helgie.vercel.app/)
+    - **overview:** single page CRUD application resembling a travel planner in which users plan in detail the route of the trip, calculate the cost of the trip and get information about the sights
+    - **stack:** html, css, javascript, webpack
+    - [**github repo**](https://github.com/heligie/big-trip)
++ [**six-cities**](https://six-cities-helgie.vercel.app/)
+    - **overview:** SPA: vacation rental app
+    - **stack:** typescript, react
+    - [**github repo**](https://github.com/heligie/six-cities)
+
+## Education
+
++ **I. E. Repin St. Petersburg State Academic Institute for Painting, Sculpture and Architecture**
+    - *Bachelor’s degree, Theory and History of Arts*
++ **HTML Academy**
+    - [*HTML & CSS. Professional Website Coding*](https://assets.htmlacademy.ru/certificates/intensive/495/2266611.pdf?1688591798)
+    - [*HTML & CSS. Adaptive Website Coding and Automation*](https://assets.htmlacademy.ru/certificates/intensive/497/2266611.pdf?1694195951)
+    - [*JavaScript. Professional Development of Web Interfaces*](https://assets.htmlacademy.ru/certificates/intensive/561/2266611.pdf?1701279534)
+    - [*JavaScript. Architecture of Front-end Applications*](https://assets.htmlacademy.ru/certificates/intensive/567/2266611.pdf?1706982264)
+    - [*React. Development of Complex Front-end Applications*](https://assets.htmlacademy.ru/certificates/intensive/571/2266611.pdf?1712866556)
+
+## Languages
+
+- **Russian** Native
+- **English** A2
