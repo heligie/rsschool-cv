@@ -50,6 +50,7 @@
   --thistle: #d3c1d7;
   --watercourse: #015e42;
   --whisper: #eae4e4;
+  --white: #ffffff;
   --zircon: #dde5e5;
 }
 
@@ -64,6 +65,7 @@ body {
   margin: 0;
 
   font-family: "Inter Regular", "Arial", sans-serif;
+  color: var(--white);
 
   background-color: var(--black);
 }
@@ -76,6 +78,23 @@ body {
 
 a {
   text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+
+  white-space: nowrap;
+
+  border: 0;
+
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
 }
 
 .container {
