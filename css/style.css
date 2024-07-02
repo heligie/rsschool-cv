@@ -43,6 +43,7 @@
   --catskill-white: #e1e5dd;
   --cotton-candy: #ffbad3;
   --golden-tainoi: #fdbf45;
+  --nero: #282828;
   --outrageous-orange: #eb5a35;
   --pattens-blue: #dde1e5;
   --royal-blue: #4085e7;
@@ -50,7 +51,8 @@
   --thistle: #d3c1d7;
   --watercourse: #015e42;
   --whisper: #eae4e4;
-  --white: #ffffff;
+  --white: #fefefe;
+  --wild-willow: #b1cc5f;
   --zircon: #dde5e5;
 }
 
@@ -100,8 +102,95 @@ a {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 25px 30px;
 }
 
 .page {
   flex-grow: 1;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+  font-family: "Inter Black", "Arial", sans-serif;
+  column-gap: 20px;
+
+  row-gap: 10px;
+}
+
+.header__nav-link {
+  position: relative;
+
+  display: block;
+  max-width: 150px;
+  padding-left: 30px;
+
+  font-size: 20px;
+  color: var(--white);
+}
+
+.header__nav-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 24px;
+  height: 24px;
+
+  background-image: url("../assets/svg/bookmark.svg");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  transform: rotate(90deg);
+  opacity: 0;
+}
+
+.header__nav-link:hover::before {
+  opacity: 1;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.footer__logo {
+  color: var(--white);
+}
+
+.footer__logo:hover {
+  color: var(--wild-willow);
+
+  transition-duration: 0.7s;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+
+  column-gap: 10px;
+}
+
+.footer__year {
+  display: block;
+  max-width: 100px;
+  margin-top: 10px;
+}
+
+.footer__github-link {
+  display: flex;
+
+  color: var(--white);
+}
+
+.footer__github-link:hover {
+  color: var(--wild-willow);
+
+  transition-duration: 0.7s;
 }
