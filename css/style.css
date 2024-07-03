@@ -49,10 +49,16 @@
   --nero: #282828;
   --outrageous-orange: #eb5a35;
   --pattens-blue: #dde1e5;
+  --peach-orange: #ffc38b;
   --royal-blue: #4085e7;
+  --sandy-beach: #ffdab7;
+  --sea-buckthorn: #ed994c;
   --snow-drift: #e5e5dd;
+  --tacao: #f3ae6d;
   --thistle: #d3c1d7;
   --tickle-me-pink: #f980b1;
+  --transparent: rgba(0, 0, 0, 0);
+  --twine: #dc9e64;
   --watercourse: #015e42;
   --whisper: #eae4e4;
   --white: #fefefe;
@@ -113,10 +119,16 @@ a {
   flex-grow: 1;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .header__nav-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
+  max-width: 800px;
   margin: 0;
   padding: 0;
 
@@ -215,18 +227,34 @@ a {
   row-gap: 15px;
 }
 
-.intro__about::before {
+.intro__about::before,
+.intro__about::after {
   content: "";
   position: absolute;
-  top: 12px;
   left: 50%;
 
-  width: 75px;
+  transform: translateX(-50%);
+}
+
+.intro__about::before {
+  top: 12px;
+
+  width: 85px;
   height: 16px;
 
   background-color: var(--black);
   border-radius: 10px;
-  transform: translateX(-50%);
+}
+
+.intro__about::after {
+  bottom: calc(100% - 20px);
+
+  width: 65px;
+  height: 100%;
+
+  background-color: var(--peach-orange);
+  background-image: linear-gradient(var(--transparent) 95%, var(--sandy-beach) 97%, var(--sea-buckthorn) 98%, var(--black)),
+  repeating-linear-gradient(to top, var(--twine) 0 1px, var(--tacao) 3px 5px, var(--transparent) 5px 20px);
 }
 
 .intro__about:hover {
