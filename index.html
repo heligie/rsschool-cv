@@ -38,149 +38,151 @@
     <main class="page">
       <h1 class="visually-hidden">CV: Frontend developer</h1>
       <div class="container">
-        <section id="about" class="intro">
-          <div class="intro__about">
-            <h2 class="intro__title">Olga Mezhetskaya</h2>
-            <span class="intro__role">Frontend developer</span>
-            <div class="intro__image-wrapper">
-              <img class="intro__image" src="assets/img/photo.jpg" alt="Profile picture." width="350" height="350">
+        <div class="page__wrapper">
+          <section id="about" class="intro">
+            <div class="intro__about">
+              <h2 class="intro__title">Olga Mezhetskaya</h2>
+              <span class="intro__role">Frontend developer</span>
+              <div class="intro__image-wrapper">
+                <img class="intro__image" src="assets/img/photo.jpg" alt="Profile picture." width="350" height="350">
+              </div>
             </div>
-          </div>
-          <div class="intro__summary">
-            <p class="intro__description">Design and animation have been my
-              passion since the days I started studying at the University and
-              working with computers, but I found myself into web development
-              since 2022. This field combines everything I like to do. I really
-              enjoy creating designed, intuitive and functional websites and
-              apps.
-            </p>
-            <div class="intro__links-wrapper">
-              <a class="intro__download-btn" href="#" download>Download CV</a>
-              <a class="intro__contact-btn" href="https://t.me/heligie">Contact Me</a>
+            <div class="intro__summary dotted">
+              <p class="intro__description">Design and animation have been my
+                passion since the days I started studying at the University and
+                working with computers, but I found myself into web development
+                since 2022. This field combines everything I like to do. I really
+                enjoy creating designed, intuitive and functional websites and
+                apps.
+              </p>
+              <div class="intro__links-wrapper">
+                <a class="intro__download-btn" href="#" download>Download CV</a>
+                <a class="intro__contact-btn" href="https://t.me/heligie">Contact Me</a>
+              </div>
             </div>
-          </div>
-        </section>
-        <section id="contacts" class="contacts">
-          <div class="contacts__wrapper">
-            <h2 class="contacts__title">Contacts</h2>
-          </div>
-          <div class="contacts__wrapper">
-            <ul class="contacts__list">
-              <li class="contacts__item">
-                <span class="contacts__term">Location</span>
-                <span class="contacts__value">Saint Petersburg, Russia</span>
+          </section>
+          <section id="contacts" class="contacts">
+            <div class="contacts__wrapper">
+              <h2 class="contacts__title">Contacts</h2>
+            </div>
+            <div class="contacts__wrapper dotted">
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <span class="contacts__term">Location</span>
+                  <span class="contacts__value">Saint Petersburg, Russia</span>
+                </li>
+                <li class="contacts__item">
+                  <span class="contacts__term">Phone</span>
+                  <a class="contacts__value contacts__value--link" href="tel:+79992060557">+7(999)206&#8209;05&#8209;57</a>
+                </li>
+                <li class="contacts__item">
+                  <span class="contacts__term">Email</span>
+                  <a class="contacts__value contacts__value--link" href="mailto:heligiette@gmail.com">heligiette@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="skills" class="skills">
+            <div class="skills__wrapper">
+              <h2 class="skills__title">My Skills</h2>
+              <ul class="skills__stack-list">
+                <li class="skills__stack-item">HTML/CSS</li>
+                <li class="skills__stack-item">SASS</li>
+                <li class="skills__stack-item">JavaScript</li>
+                <li class="skills__stack-item">Git</li>
+              </ul>
+            </div>
+            <div class="skills__wrapper">
+              <ul class="skills__languages-list">
+                <li class="skills__languages-item">
+                  <span class="skills__language">Russian</span>
+                  <span class="skills__language-level">Native</span>
+                </li>
+                <li class="skills__languages-item">
+                  <span class="skills__language">English</span>
+                  <span class="skills__language-level">A2</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="code" class="code">
+            <h2 class="code__title">Code example</h2>
+            <pre class="code__wrapper">
+              <code class="code__example">
+                const getLength = (arr) =&gt; arr.length;
+                const getFirst = (arr) =&gt; arr[0];
+                const getLast = (arr) =&gt; arr[arr.length - 1];
+              </code>
+            </pre>
+          </section>
+          <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <img class="projects__image" src="#" alt="Project preview.">
+                <a class="projects__name" href="https://heligie.github.io/cat-energy/" target="_blank" rel="nofollow noopener">Cat Energy</a>
+                <p class="projects__description">An online store website that can
+                  help you choose and order the right cat food system
+                </p>
+                <a class="projects__link" href="https://github.com/heligie/cat-energy" target="_blank" rel="nofollow noopener">GitHub Repo</a>
               </li>
-              <li class="contacts__item">
-                <span class="contacts__term">Phone</span>
-                <a class="contacts__value" href="tel:+79992060557">+7(999)206&#8209;05&#8209;57</a>
+              <li class="projects__item">
+                <img class="projects__image" src="#" alt="Project preview.">
+                <a class="projects__name" href="https://big-trip-helgie.vercel.app/" target="_blank" rel="nofollow noopener">Big Trip</a>
+                <p class="projects__description">Single page CRUD application
+                  resembling a travel planner in which users plan in detail the
+                  route of the trip, calculate the cost of the trip and get
+                  information about the sights
+                </p>
+                <a class="projects__link" href="https://github.com/heligie/big-trip" target="_blank" rel="nofollow noopener">GitHub Repo</a>
               </li>
-              <li class="contacts__item">
-                <span class="contacts__term">Email</span>
-                <a class="contacts__value" href="mailto:heligiette@gmail.com">heligiette@gmail.com</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section id="skills" class="skills">
-          <div class="skills__wrapper">
-            <h2 class="skills__title">My Skills</h2>
-            <ul class="skills__stack-list">
-              <li class="skills__stack-item">HTML/CSS</li>
-              <li class="skills__stack-item">SASS</li>
-              <li class="skills__stack-item">JavaScript</li>
-              <li class="skills__stack-item">Git</li>
-            </ul>
-          </div>
-          <div class="skills__wrapper">
-            <ul class="skills__languages-list">
-              <li class="skills__languages-item">
-                <span class="skills__language">Russian</span>
-                <span class="skills__language-level">Native</span>
-              </li>
-              <li class="skills__languages-item">
-                <span class="skills__language">English</span>
-                <span class="skills__language-level">A2</span>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section id="code" class="code">
-          <h2 class="code__title">Code example</h2>
-          <pre class="code__wrapper">
-            <code class="code__example">
-              const getLength = (arr) =&gt; arr.length;
-              const getFirst = (arr) =&gt; arr[0];
-              const getLast = (arr) =&gt; arr[arr.length - 1];
-            </code>
-          </pre>
-        </section>
-        <section id="projects" class="projects">
-          <h2>Projects</h2>
-          <ul class="projects__list">
-            <li class="projects__item">
-              <img class="projects__image" src="#" alt="Project preview.">
-              <a class="projects__name" href="https://heligie.github.io/cat-energy/" target="_blank" rel="nofollow noopener">Cat Energy</a>
-              <p class="projects__description">An online store website that can
-                help you choose and order the right cat food system
-              </p>
-              <a class="projects__link" href="https://github.com/heligie/cat-energy" target="_blank" rel="nofollow noopener">GitHub Repo</a>
-            </li>
-            <li class="projects__item">
-              <img class="projects__image" src="#" alt="Project preview.">
-              <a class="projects__name" href="https://big-trip-helgie.vercel.app/" target="_blank" rel="nofollow noopener">Big Trip</a>
-              <p class="projects__description">Single page CRUD application
-                resembling a travel planner in which users plan in detail the
-                route of the trip, calculate the cost of the trip and get
-                information about the sights
-              </p>
-              <a class="projects__link" href="https://github.com/heligie/big-trip" target="_blank" rel="nofollow noopener">GitHub Repo</a>
-            </li>
-            <li class="projects__item">
-              <img class="projects__image" src="#" alt="Project preview.">
-              <a class="projects__name" href="https://six-cities-helgie.vercel.app/" target="_blank" rel="nofollow noopener">Six Cities</a>
-              <p class="projects__description">SPA: vacation rental app</p>
-              <a class="projects__link" href="https://github.com/heligie/six-cities" target="_blank" rel="nofollow noopener">GitHub Repo</a>
-            </li>
-          </ul>
-        </section>
-        <section id="education" class="education">
-          <h2>Education</h2>
-          <div class="education__wrapper">
-            <span class="education__institution">I. E. Repin St. Petersburg State Academic Institute for Painting, Sculpture and Architecture</span>
-            <span class="education__degree">Bachelor’s degree, Theory and History of Arts</span>
-          </div>
-          <div class="education__wrapper">
-            <h2>Courses</h2>
-            <ul class="education__list">
-              <li class="education__item">
-                <span class="education__institution">HTML Academy</span>
-                <ul class="education__institution-list">
-                  <li class="education__institution-item">
-                    <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/495/2266611.pdf?1688591798" target="_blank">HTML &amp; CSS. Professional Website Coding</a>
-                  </li>
-                  <li class="education__institution-item">
-                    <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/497/2266611.pdf?1694195951" target="_blank">HTML &amp; CSS. Adaptive Website Coding and Automation</a>
-                  </li>
-                  <li class="education__institution-item">
-                    <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/561/2266611.pdf?1701279534" target="_blank">JavaScript. Professional Development of Web Interfaces</a>
-                  </li>
-                  <li class="education__institution-item">
-                    <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/567/2266611.pdf?1706982264" target="_blank">JavaScript. Architecture of Front-end Applications</a>
-                  </li>
-                  <li class="education__institution-item">
-                    <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/571/2266611.pdf?1712866556" target="_blank">React. Development of Complex Front-end Applications</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="education__item">
-                <span class="education__institution">The Rolling Scopes School</span>
-                <ul class="education__institution-list">
-                  <li class="education__institution-item">JavaScript/Front-end Course Pre-school (in progress)</li>
-                </ul>
+              <li class="projects__item">
+                <img class="projects__image" src="#" alt="Project preview.">
+                <a class="projects__name" href="https://six-cities-helgie.vercel.app/" target="_blank" rel="nofollow noopener">Six Cities</a>
+                <p class="projects__description">SPA: vacation rental app</p>
+                <a class="projects__link" href="https://github.com/heligie/six-cities" target="_blank" rel="nofollow noopener">GitHub Repo</a>
               </li>
             </ul>
-          </div>
-        </section>
+          </section>
+          <section id="education" class="education">
+            <h2>Education</h2>
+            <div class="education__wrapper">
+              <span class="education__institution">I. E. Repin St. Petersburg State Academic Institute for Painting, Sculpture and Architecture</span>
+              <span class="education__degree">Bachelor’s degree, Theory and History of Arts</span>
+            </div>
+            <div class="education__wrapper">
+              <h2>Courses</h2>
+              <ul class="education__list">
+                <li class="education__item">
+                  <span class="education__institution">HTML Academy</span>
+                  <ul class="education__institution-list">
+                    <li class="education__institution-item">
+                      <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/495/2266611.pdf?1688591798" target="_blank">HTML &amp; CSS. Professional Website Coding</a>
+                    </li>
+                    <li class="education__institution-item">
+                      <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/497/2266611.pdf?1694195951" target="_blank">HTML &amp; CSS. Adaptive Website Coding and Automation</a>
+                    </li>
+                    <li class="education__institution-item">
+                      <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/561/2266611.pdf?1701279534" target="_blank">JavaScript. Professional Development of Web Interfaces</a>
+                    </li>
+                    <li class="education__institution-item">
+                      <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/567/2266611.pdf?1706982264" target="_blank">JavaScript. Architecture of Front-end Applications</a>
+                    </li>
+                    <li class="education__institution-item">
+                      <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/571/2266611.pdf?1712866556" target="_blank">React. Development of Complex Front-end Applications</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="education__item">
+                  <span class="education__institution">The Rolling Scopes School</span>
+                  <ul class="education__institution-list">
+                    <li class="education__institution-item">JavaScript/Front-end Course Pre-school (in progress)</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
       </div>
     </main>
     <footer class="footer">
