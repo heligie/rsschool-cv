@@ -40,15 +40,19 @@
 
 :root {
   --black: #000000;
+  --bombay: #b5b5b2;
   --catskill-white: #e1e5dd;
   --cotton-candy: #ffbad3;
   --golden-tainoi: #fdbf45;
+  --mint-green: #8dff8b;
+  --mulberry: #c44c7e;
   --nero: #282828;
   --outrageous-orange: #eb5a35;
   --pattens-blue: #dde1e5;
   --royal-blue: #4085e7;
   --snow-drift: #e5e5dd;
   --thistle: #d3c1d7;
+  --tickle-me-pink: #f980b1;
   --watercourse: #015e42;
   --whisper: #eae4e4;
   --white: #fefefe;
@@ -67,7 +71,7 @@ body {
   margin: 0;
 
   font-family: "Inter Regular", "Arial", sans-serif;
-  color: var(--white);
+  color: var(--black);
 
   background-color: var(--black);
 }
@@ -181,6 +185,8 @@ a {
   display: block;
   max-width: 100px;
   margin-top: 10px;
+
+  color: var(--white);
 }
 
 .footer__github-link {
@@ -193,4 +199,218 @@ a {
   color: var(--wild-willow);
 
   transition-duration: 0.7s;
+}
+
+.intro__about {
+  position: relative;
+
+  display: grid;
+  max-width: 410px;
+  padding: 100px 30px 30px 30px;
+
+  background-color: var(--snow-drift);
+  border-radius: 20px;
+
+  justify-items: center;
+  row-gap: 15px;
+}
+
+.intro__about::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 50%;
+
+  width: 75px;
+  height: 16px;
+
+  background-color: var(--black);
+  border-radius: 10px;
+  transform: translateX(-50%);
+}
+
+.intro__about:hover {
+  background-color: var(--cotton-candy);
+
+  transition-duration: 0.7s;
+}
+
+.intro__about:hover .intro__title {
+  color: var(--mulberry);
+
+  transition-duration: 0.7s;
+}
+
+.intro__about:hover .intro__role {
+  color: var(--white);
+
+  transition-duration: 0.7s;
+}
+
+.intro__summary {
+  display: grid;
+  max-width: 410px;
+  padding: 30px;
+
+  background-color: var(--snow-drift);
+  border-top: 4px dashed var(--black);
+  border-radius: 20px;
+
+  row-gap: 20px;
+}
+
+.intro__image {
+  position: relative;
+
+  display: block;
+
+  border-radius: 20px;
+}
+
+.intro__image-wrapper {
+  position: relative;
+}
+
+.intro__image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  z-index: 1;
+
+  width: 60px;
+  height: 60px;
+
+  background-image: url("../assets/svg/smile.svg");
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+.intro__title {
+  position: relative;
+
+  margin: 0;
+
+  font-size: 28px;
+  font-family: "Inter Black", "Arial", sans-serif;
+}
+
+.intro__title::before,
+.intro__title::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+
+  width: 30px;
+  height: 30px;
+
+  background-image: url("../assets/svg/star.svg");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.intro__title::before {
+  top: 70px;
+  left: -40px;
+
+  transform: rotate(-30deg);
+}
+
+.intro__title::after {
+  top: -20px;
+  right: -40px;
+}
+
+.intro__description {
+  position: relative;
+
+  margin: 0;
+
+  font-size: 14px;
+}
+
+.intro__description::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+
+  width: 25px;
+  height: 25px;
+
+  background-image: url("../assets/svg/arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  transform: scale(-1, 1) rotate(40deg);
+}
+
+.intro__links-wrapper {
+  display: grid;
+
+  column-gap: 15px;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.intro__download-btn,
+.intro__contact-btn {
+  position: relative;
+
+  display: block;
+  padding: 10px 20px 10px 40px;
+
+  font-size: 14px;
+  font-family: "Inter Light", "Arial", sans-serif;
+  text-align: center;
+  color: var(--white);
+
+  border-radius: 20px;
+}
+
+.intro__download-btn {
+  background-color: var(--bombay);
+}
+
+.intro__contact-btn {
+  background-color: var(--black);
+}
+
+.intro__download-btn::before,
+.intro__contact-btn::before {
+  content: "";
+  position: absolute;
+
+  background-repeat: no-repeat;
+}
+
+.intro__download-btn::before {
+  left: 20px;
+
+  width: 15px;
+  height: 15px;
+
+  background-image: url("../assets/svg/download-arrow.svg");
+  background-size: 15px 15px;
+}
+
+.intro__contact-btn::before {
+  top: 50%;
+  left: 35px;
+
+  width: 7px;
+  height: 7px;
+
+  background-color: var(--white);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.intro__download-btn:hover {
+  background-color: var(--tickle-me-pink);
+
+  transition-duration: 0.7s;
+}
+
+.intro__contact-btn:hover::before {
+  background-color: var(--mint-green);
 }
