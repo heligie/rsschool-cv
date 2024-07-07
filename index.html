@@ -11,28 +11,36 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="header__nav">
-          <ul class="header__nav-list">
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#about">About</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#contacts">Contacts</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#code">Code</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="header__nav-item">
-              <a class="header__nav-link" href="#education">Education</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="header__wrapper">
+          <button class="header__toggle" type="button">
+            <span class="visually-hidden">Open/close menu.</span>
+            <svg width="60" height="60" aria-hidden="true" focusable="false">
+              <use href="assets/svg/sprite.svg#burger-menu"></use>
+            </svg>
+          </button>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#about">About</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#contacts">Contacts</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#code">Code</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link" href="#education">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
     <main class="page">
