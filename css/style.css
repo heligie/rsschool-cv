@@ -49,6 +49,7 @@
   --gossamer: #49a388;
   --iceberg: #ceded9;
   --mint-green: #8dff8b;
+  --mist-grey: #b7b7a4;
   --moon-mist: #cdcdbd;
   --mulberry: #c44c7e;
   --nero: #282828;
@@ -75,6 +76,8 @@
 
 html {
   height: 100%;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -167,6 +170,78 @@ a {
 }
 
 /* -- HEADER -- */
+
+.header:has(.header__nav-link--about:hover) + .page .intro__about {
+  background-color: var(--cotton-candy);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--contacts:hover) + .page .contacts__wrapper {
+  background-color: var(--golden-tainoi);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--skills:hover) + .page .skills__wrapper--head {
+  background-color: var(--mist-grey);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--code:hover) + .page .code {
+  background-color: var(--royal-blue);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--education:hover) + .page .education__folder-background {
+  background-color: var(--amethyst-smoke);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--education:hover) + .page .education__folder-header::after {
+  background-color: var(--thistle);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--education:hover) + .page .education__wrapper {
+  background-color: var(--thistle);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects {
+  color: var(--white);
+
+  background-color: var(--watercourse);
+
+  transition-duration: 0.7s;
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects__header {
+  color: var(--gossamer);
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects__footer {
+  color: var(--gossamer);
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects__link {
+  color: var(--cascade);
+
+  background-color: var(--iceberg);
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects__code {
+  color: var(--gossamer);
+}
+
+.header:has(.header__nav-link--projects:hover) + .page .projects__all::before {
+  background-color: var(--golden-tainoi);
+}
 
 .header__wrapper {
   position: relative;
@@ -700,6 +775,12 @@ a {
 
 .skills__wrapper--link:hover {
   background-color: var(--outrageous-orange);
+
+  transition-duration: 0.7s;
+}
+
+.skills__wrapper--head:hover {
+  background-color: var(--mist-grey);
 
   transition-duration: 0.7s;
 }
