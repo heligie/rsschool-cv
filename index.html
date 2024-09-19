@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <button class="header__toggle" type="button">
+            <span class="visually-hidden">Open/close menu.</span>
+            <svg width="60" height="60" aria-hidden="true" focusable="false">
+              <use href="assets/svg/sprite.svg#burger-menu"></use>
+            </svg>
+          </button>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--about" href="#about">About</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--contacts" href="#contacts">Contacts</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--skills" href="#skills">Skills</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--code" href="#code">Code</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--projects" href="#projects">Projects</a>
+              </li>
+              <li class="header__nav-item">
+                <a class="header__nav-link header__nav-link--education" href="#education">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="page">
+      <h1 class="visually-hidden">CV: Frontend developer</h1>
+      <div class="container">
+        <div class="page__wrapper">
+          <div class="container-column container-column--intro">
+            <section id="about" class="intro">
+              <div class="intro__about box">
+                <div class="intro__header">
+                  <h2 class="intro__title">Olga Mezhetskaya</h2>
+                  <span class="intro__role">Frontend developer</span>
+                </div>
+                <div class="intro__image-wrapper">
+                  <img class="intro__image" src="assets/img/photo.jpg" alt="Profile picture." width="150" height="150">
+                </div>
+              </div>
+              <div class="intro__summary dotted-top box">
+                <p class="intro__description">Design and animation have been my
+                  passion since the days I started studying at the University and
+                  working with computers, but I found myself into web development.
+                  This field combines everything I like to do. I really enjoy
+                  creating designed, intuitive and functional websites and apps.
+                </p>
+                <div class="intro__links-wrapper">
+                  <a class="intro__download-btn" href="#" download>Download CV</a>
+                  <a class="intro__contact-btn" href="https://t.me/heligie">Contact Me</a>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="container-column">
+            <section id="contacts" class="contacts">
+              <div class="contacts__wrapper box">
+                <h2 class="contacts__title title">Contacts</h2>
+              </div>
+              <div class="contacts__wrapper dotted-top box">
+                <ul class="contacts__list">
+                  <li class="contacts__item">
+                    <span class="contacts__term">Location</span>
+                    <span class="contacts__value">Saint Petersburg, Russia</span>
+                  </li>
+                  <li class="contacts__item">
+                    <span class="contacts__term">Email</span>
+                    <a class="contacts__value contacts__value--link" href="mailto:heligie@yandex.ru">heligie@yandex.ru</a>
+                  </li>
+                  <li class="contacts__item">
+                    <span class="contacts__term">Telegram</span>
+                    <a class="contacts__value contacts__value--link" href="https://t.me/heligie">@heligie</a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section id="education" class="education">
+              <div class="education__folder-background">
+                <div class="education__folder-header education__wrapper box">
+                  <h2 class="education__caption title">Education</h2>
+                </div>
+                <div class="education__folder-body education__wrapper box">
+                  <span class="education__institution">I. E. Repin St. Petersburg State Academic Institute for Painting, Sculpture and Architecture</span>
+                  <span class="education__degree">Bachelor’s degree, Theory and History of Arts</span>
+                </div>
+              </div>
+              <div class="education__courses education__wrapper dotted-top box">
+                <h2 class="education__title education__title--courses title">Courses</h2>
+                <ul class="education__list">
+                  <li class="education__item">
+                    <a class="education__institution-name education__institution-name--academy" href="https://htmlacademy.ru/" aria-label="HTML Academy." target="_blank"></a>
+                    <ul class="education__institution-list">
+                      <li class="education__institution-item" data-status="certificate">
+                        <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/495/2266611.pdf?1688591798" target="_blank">HTML &amp; CSS. Professional Website Coding</a>
+                      </li>
+                      <li class="education__institution-item" data-status="certificate">
+                        <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/497/2266611.pdf?1694195951" target="_blank">HTML &amp; CSS. Adaptive Website Coding and Automation</a>
+                      </li>
+                      <li class="education__institution-item" data-status="certificate">
+                        <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/561/2266611.pdf?1701279534" target="_blank">JavaScript. Professional Development of Web Interfaces</a>
+                      </li>
+                      <li class="education__institution-item" data-status="certificate">
+                        <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/567/2266611.pdf?1706982264" target="_blank">JavaScript. Architecture of Front-end Applications</a>
+                      </li>
+                      <li class="education__institution-item" data-status="certificate">
+                        <a class="education__institution-link" href="https://assets.htmlacademy.ru/certificates/intensive/571/2266611.pdf?1712866556" target="_blank">React. Development of Complex Front-end Applications</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="education__item">
+                    <a class="education__institution-name education__institution-name--school" href="https://rs.school/" aria-label="The Rolling Scopes School." target="_blank"></a>
+                    <ul class="education__institution-list">
+                      <li class="education__institution-item" data-status="in progress">JavaScript/Front-end Course Pre-school</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="container-column">
+            <section id="skills" class="skills">
+              <div class="skills__wrapper skills__wrapper--head box">
+                <h2 class="skills__title title">My Skills</h2>
+                <ul class="skills__stack-list">
+                  <li class="skills__stack-item">
+                    <span class="skills__value">HTML/CSS</span>
+                    <div class="skills__range-scale">
+                      <div class="skills__range-bar" data-percent="95%"></div>
+                    </div>
+                  </li>
+                  <li class="skills__stack-item">
+                    <span class="skills__value">SASS</span>
+                    <div class="skills__range-scale">
+                      <div class="skills__range-bar" data-percent="90%"></div>
+                    </div>
+                  </li>
+                  <li class="skills__stack-item">
+                    <span class="skills__value">JavaScript</span>
+                    <div class="skills__range-scale">
+                      <div class="skills__range-bar" data-percent="80%"></div>
+                    </div>
+                  </li>
+                  <li class="skills__stack-item">
+                    <span class="skills__value">Git</span>
+                    <div class="skills__range-scale">
+                      <div class="skills__range-bar" data-percent="75%"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="skills__wrapper dotted-top box">
+                <ul class="skills__languages-list">
+                  <li class="skills__languages-item">
+                    <span class="skills__language skills__language--rus">Russian</span>
+                    <span class="skills__language-level">Native</span>
+                  </li>
+                  <li class="skills__languages-item">
+                    <span class="skills__language skills__language--eng">English</span>
+                    <span class="skills__language-level">B1</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="skills__wrapper skills__wrapper--link dotted-top dotted-left">
+                <a class="skills__github-link" href="https://github.com/heligie" aria-label="GitHub profile." target="_blank"></a>
+              </div>
+            </section>
+            <section id="projects" class="projects box">
+              <div class="projects__header">
+                <h2 class="projects__title">Latest projects</h2>
+                <svg class="projects__folder-icon" width="25" height="25" aria-hidden="true" focusable="false">
+                  <use href="assets/svg/sprite.svg#folder-icon"></use>
+                </svg>
+              </div>
+              <ul class="projects__list">
+                <li class="projects__item">
+                  <a class="projects__link" href="https://heligie.github.io/cat-energy/" aria-label="Link to visit the website." target="_blank" rel="nofollow noopener">
+                    <svg class="projects__link-icon" width="50" height="50" aria-hidden="true" focusable="false">
+                      <use href="assets/svg/sprite.svg#link-icon"></use>
+                    </svg>
+                  </a>
+                  <div class="projects__wrapper">
+                    <p class="projects__description">Cat Energy: <span class="projects__desc">an online store website</span></p>
+                    <a class="projects__code" href="https://github.com/heligie/cat-energy" target="_blank" rel="nofollow noopener">GitHub Repo</a>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="https://big-trip-helgie.vercel.app/" aria-label="Link to visit the website." target="_blank" rel="nofollow noopener">
+                    <svg class="projects__link-icon" width="50" height="50" aria-hidden="true" focusable="false">
+                      <use href="assets/svg/sprite.svg#link-icon"></use>
+                    </svg>
+                  </a>
+                  <div class="projects__wrapper">
+                    <p class="projects__description">Big Trip: <span class="projects__desc">single page CRUD application</span></p>
+                    <a class="projects__code" href="https://github.com/heligie/big-trip" target="_blank" rel="nofollow noopener">GitHub Repo</a>
+                  </div>
+                </li>
+                <li class="projects__item">
+                  <a class="projects__link" href="https://six-cities-helgie.vercel.app/" aria-label="Link to visit the website." target="_blank" rel="nofollow noopener">
+                    <svg class="projects__link-icon" width="50" height="50" aria-hidden="true" focusable="false">
+                      <use href="assets/svg/sprite.svg#link-icon"></use>
+                    </svg>
+                  </a>
+                  <div class="projects__wrapper">
+                    <p class="projects__description">Six Cities: <span class="projects__desc">SPA vacation rental app</span></p>
+                    <a class="projects__code" href="https://github.com/heligie/six-cities" target="_blank" rel="nofollow noopener">GitHub Repo</a>
+                  </div>
+                </li>
+              </ul>
+              <div class="projects__footer">
+                <a class="projects__all" href="https://github.com/heligie?tab=repositories" target="_blank">See all my projects</a>
+                <svg class="projects__arrow-icon" width="50" height="20" aria-hidden="true" focusable="false">
+                  <use href="assets/svg/sprite.svg#arrow-move"></use>
+                </svg>
+              </div>
+            </section>
+            <section id="code" class="code box">
+              <h2 class="code__title title">Code example</h2>
+              <code class="code__example">
+  function rgb(r, g, b) {
+    let decimalColors = [...arguments];
+
+    let hexadecimalColors = decimalColors
+      .map((color) =&gt; {
+        if (color &lt; 0) return 0;
+        if (color &gt; 255) return 255;
+        return color;
+      })
+
+    return hexadecimalColors.map(color =&gt;
+      color
+        .toString(16)
+        .padStart(2, '0'))
+        .join('')
+        .toUpperCase();
+  }
+              </code>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a class="footer__logo" aria-label="Link to the RS School course." href="https://rs.school/courses/javascript-ru" target="_blank" rel="nofollow noopener">
+            <svg width="110" height="39" aria-hidden="true" focusable="false">
+              <use href="assets/svg/sprite.svg#rsschool-logo"></use>
+            </svg>
+          </a>
+          <div class="footer__copyright">
+            <span class="footer__year">© 2024 by</span>
+            <a class="footer__github-link" aria-label="GitHub profile." href="https://github.com/heligie" target="_blank" rel="nofollow noopener">
+              <svg width="40" height="40" aria-hidden="true" focusable="false">
+                <use href="assets/svg/sprite.svg#github-logo"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
