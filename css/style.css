@@ -323,35 +323,27 @@ a {
 
 .footer__wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: end;
-  padding-top: 30px;
+  justify-content: center;
+  padding-top: 50px;
   padding-bottom: 30px;
 
+  font-size: 12px;
   column-gap: 20px;
 }
 
-.footer__logo {
+.footer__icon {
   color: var(--white);
-}
-
-.footer__logo:hover {
-  color: var(--wild-willow);
-
-  transition-duration: 0.7s;
 }
 
 .footer__copyright {
   display: flex;
   align-items: center;
 
-  column-gap: 10px;
+  column-gap: 5px;
 }
 
-.footer__year {
-  display: block;
-  max-width: 100px;
-  margin-top: 10px;
+.footer__copyright-text {
+  display: flex;
 
   color: var(--white);
 }
@@ -359,11 +351,11 @@ a {
 .footer__github-link {
   display: flex;
 
-  color: var(--white);
+  color: var(--wild-willow);
 }
 
 .footer__github-link:hover {
-  color: var(--wild-willow);
+  text-decoration: underline;
 
   transition-duration: 0.7s;
 }
