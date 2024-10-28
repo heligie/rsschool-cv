@@ -9,11 +9,11 @@
 
 ## About
 
-Design and animation have been my passion since the days I started studying at the University and working with computers, but I found myself into web development since 2022. This field combines everything I like to do. I really enjoy creating designed, intuitive and functional websites and apps.
+Design and animation have been my passion since the days I started studying at the University and working with computers, but I found myself into web development. This field combines everything I like to do. I really enjoy creating designed, intuitive and functional websites and apps.
 
 ## Skills
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
